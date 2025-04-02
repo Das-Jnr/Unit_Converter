@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <h1 class="texts-design">Metric / Imperial Unit Conversion</h1>
+            <!-- prevents users from enetering letters and -ve numbers using type=number and min=0 -->
+            <input id="input-el" class="input-design texts-design" type="number" min="0" placeholder="Enter a value"/>
+            <button id="btn-el" class="btn-design texts-design">Convert</button>
+                        
+        </header>
+        
+        
+        <main class="result-container">
+            
+            <section class="result-subsection">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-el" class="body-texts-design"> </p>
+            </section>
+
+            <section class="result-subsection">
+                <h2>Volume (Litres/Gallons)</h2>
+                <p id="volume-el" class="body-texts-design"> </p>
+            </section>
+
+            <section class="result-subsection">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-el" class="body-texts-design"> </p>
+            </section>
+            
+        </main>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>

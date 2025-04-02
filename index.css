@@ -1,0 +1,170 @@
+body {
+    
+    /* Size */
+    width: auto;
+    /* this ensures content fits screen irrespective of screen size of user */
+    height: 100vh;
+    margin: 0px;
+    /* ensures padding doesn't add am extra space to heigh */
+    box-sizing: border-box;
+    
+    
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    
+   
+    /* Design */
+    background-color: white;
+    font-family: inter, Courier, monospace;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* i have set padding and gap to be the same such that the top/bottom padding/spacing is same with gap between items given gap doesn't apply to top/bottom spcing. It only applies to gap between items */
+
+.header {
+
+    /* Size */
+    height: 40%;
+    padding: 50px;
+    margin: 0px;
+    /* ensures padding doesn't add am extra space to heigh */
+    box-sizing: border-box;
+    
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    
+    /* Design */
+    background-color: #6943FF;
+    /* border-radius: 5px; */
+    gap: 50px;
+    /* horizontal alignment */
+
+    /* vertical alignment */
+    align-items: center;
+    /* to align horizontally */
+    justify-content: center;
+    
+}
+
+h1 {
+
+    /* remove the default margin from this element to ensure equal spacing when a feature is applied to all */
+    margin: 0px;
+}
+
+
+.input-design {
+    
+    /* size */
+    height: 150px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    /* ensures padding doesn't add am extra space to heigh */
+    box-sizing: border-box;
+    
+    /* Design */
+    border-style: solid;
+    background-color: #6943FF;
+    border-color: white;
+    border-radius: 5px;
+    
+    /* Texts design */
+    /* inherits from .text-design reuseable component in addition to the below*/
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.btn-design {
+    
+    /* Size */
+    width: 120px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    /* ensures padding doesn't add am extra space to heigh */
+    box-sizing: border-box;
+    
+    /* Design */
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border: 0px;
+    
+    /* Texts design */
+    /* inherits from .text-design reuseable component in addition to the below*/
+    color: black !important;
+}
+
+
+/* Resueable components --> Header section*/
+
+.texts-design {
+
+    /* Texts design */
+    font-family: inter, Courier, monospace;
+    text-align: center;
+    letter-spacing: 0%;
+    color: white;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* i have set padding and gap to be the same such that the top/bottom padding/spacing is same with gap between items given gap doesn't apply to top/bottom spcing. It only applies to gap between items */
+.result-container {
+
+    /* Size */
+    height: 60%;
+    padding: 50px;
+    margin: 0px;
+    /* ensures padding doesn't add am extra space to heigh */
+    box-sizing: border-box;
+    
+    /* Display */
+    display: flex;
+    flex-direction: column;
+
+    /* Design */
+    align-items: center;
+    background-color: #1F2937;
+    /* border-radius: 5px; */
+    gap: 50px;
+
+}
+
+.result-subsection {
+    
+    /* Size */
+    width: 90%;
+    /* this will ensure the boxes/items share the height of the container equally and there won't be extra spaces at the bottom*/
+    flex: 1;
+    
+    /* Design */
+    /* horizontal alignment */
+    text-align: center;
+    /* vertical alignment */
+    align-content: center;
+    background-color: #273549;
+    
+    
+}
+
+/* Resueable components --> Header section*/
+
+h2 {
+
+    /* Texts design */
+    font-family: inter, Courier, monospace;
+    letter-spacing: 0%;
+    color: #CCC1FF;
+}
+
+.body-texts-design {
+
+    /* Texts design */
+    font-family: inter, Courier, monospace;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
